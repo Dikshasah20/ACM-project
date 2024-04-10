@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+body{        
+    background-color: #dae5f0;
+}
+h2{
+    color: white;
+    text-decoration-line: underline;
+}
+h3{
+    color: rgb(159, 159, 29);
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.by-laws p{
+    color: rgb(7, 6, 6);
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: center;
+    align-content: center;
+    border: 2px solid white;
+    padding: 20px;
+}
+.by-laws p:hover{
+    border: 5px solid rgb(159, 159, 29) ;
+}
+hr{
+    color:  rgb(159, 159, 29);
+    width: 70%;
+    margin-left: 200px;
+}
+.head{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.navbar{
+    background-color: #0c0b08;
+    display: flex;
+    color: rgb(168, 23, 23);
+    align-items: center;
+    justify-content: space-evenly;
+    height: 105px;
+    padding: 0 2%;
+}
+.nav-logo{
+   height:; 
+
+}
+.logo{
+    background-image: url("acm-logo.png");
+    background-size:cover;
+    height: 80px;
+    width: 80px;
+}
+
+/* .border:hover{
+    color: yellow;
+    font-size: 1.3rem;
+} */
+.nav-elements{
+    color: #f5ebebf4;
+    display: flex;
+    font-size: 1rem;
+}
+.nav-elements a{
+    text-decoration: none;
+    transition: all ease 0.5s;
+    color: rgb(241, 233, 233);
+    font-weight: 600;
+}
+.nav-elements a:hover{
+    border-bottom: 2px solid black;
+}
+.nav-home{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.nav-team{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.nav-events{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.nav-laws{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.nav-register{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.carousel-inner{
+    border-radius: 8px;
+    height: 60vh;
+    padding: 1% 1%;
+}
+.heading{
+    left-align: 50% ;
+}
+.foot-sec{
+    background-color:#11181f;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 300px;
+}
+.vvce-logo{
+    background-image: url("OIST Logo.jpg");
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    opacity: 0.5;
+    border-radius: 4%;
+}
+.icons{
+    margin-left: 25px;
+    margin-top: 20px;
+    font-size: 40px;
+    justify-content: space-evenly;
+}
+a{
+    color: white;
+}
+a :hover{
+    color: yellow;
+}
+.foot-sec2{
+    background-color: #0a0e12;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50px;
+}
+::-webkit-scrollbar{
+    width:0.45em;
+  }
+  ::-webkit-scrollbar-track{
+    background: rgb(14, 14, 14);
+   
+  }
+  ::-webkit-scrollbar-thumb{
+    background: #c5765138;
+  }
+  ::-webkit-scrollbar-thumb:hover{
+    background: #c57651;
+  }
+  .to-top{
+    background-color: #c57651;
+    color: #11181f;
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    text-decoration: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .4s;
+  }
+  .to-top.active{
+    bottom: 32px;
+    pointer-events: auto;
+    opacity:1;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  .to-top:hover{
+    background-color: #11181f;
+    color: #c57651;
+  }
+  .box{
+    width: 100%;
+    height: 80vh;
+    background-color: #c57651;
+    padding: 0 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .box1{
+    width: 40%;
+    height: 100%;
+    /* background-color: #163e6b; */
+    /* position: relative; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+  }
+  .box2{
+    width: 50%;
+    height: 90%;
+    /* background-color: #163e6b; */
+
+    border-radius: 10%;
+    margin-top: 2%;
+  }
+.box1 .cl{
+    width: 100%;
+    height:6%;
+    /* background-color: red; */
+    border-bottom: 2px solid rgba(0, 0, 0, 0.726);
+    overflow: hidden;
+    /* position: absolute; */
+    /* top:-10% */
+  }
+.cl h4{
+    font-size:2vw;
+    font-weight:600;
+    /* border-bottom: 2px solid black; */
+    margin-bottom: 1vw;
+
+  }
+  .cl p{
+    font-size: 1.5vw;
+
+  }
+  .box2 img{
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+    border-radius: 10%;
+  }
+  .lol{
+    width: 100%;
+    height: 20vh;
+    /* background-color: #163e6b; */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0 7%;
+
+  }
+  .lol h1{
+    font-size: 10vh;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #0a0e12b6;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.397);
+  }
